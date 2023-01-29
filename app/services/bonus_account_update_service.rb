@@ -1,0 +1,2 @@
+class BonusAccountUpdateService < Service
+end

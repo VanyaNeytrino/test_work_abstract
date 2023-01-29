@@ -1,0 +1,22 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  bonus_score: 1
+  incoming: MyString
+  timestamp: 1
+
+two:
+  bonus_score: 1
+  incoming: MyString
+  timestamp: 1
+
+# == Schema Information
+#
+# Table name: bonus_accounts
+#
+#  id                 :bigint           not null, primary key
+#  bonus_score        :integer
+#  incoming_timestamp :integer
+#  created_at         :datetime         not null
+#  updated_at         :datetime         not null
+#
